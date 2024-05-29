@@ -1,0 +1,10 @@
+{
+    "name": "CookieKilla",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Clears cookies on a site whenever you reload",
+    "permissions": ["cookies", "activeTab"],
+    "background": {
+    "scripts": ["background.js"]
+    }
+}
